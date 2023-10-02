@@ -1,0 +1,38 @@
+{
+    "features": {
+        "feature_items": [
+            {
+                "timestamp": "20230920082804",
+                "cms-guid": "388A3D83CAD74A7885486D61B0F345FC",
+                "cms-id": "2405",
+                "feature_name": "cookies",
+                "id": "cookies",
+                "resource": "https://www.vodafone.de/app/prod/cookies.json"
+            },
+            {
+                "timestamp": "20230920082804",
+                "cms-guid": "B0F88CECCDE44523971514FC79287A72",
+                "cms-id": "1945",
+                "feature_name": "securedScreens",
+                "id": "securedScreens",
+                "resource": "https://www.vodafone.de/app/prod/secured_screens.json"
+            },
+            {
+                "timestamp": "20230920082804",
+                "cms-guid": "0085CD42EBCF457789BB22B5FDE62512",
+                "cms-id": "656",
+                "feature_name": "webview",
+                "id": "webview",
+                "resource": "https://www.vodafone.de/app/prod/webview.json"
+            },
+            {
+                "timestamp": "20230920082804",
+                "cms-guid": "5B3E696F053743A7B78EE1AF6F8F18C1",
+                "cms-id": "654",
+                "feature_name": "privacy",
+                "id": "privacy",
+                "resource": "https://www.vodafone.de/app/prod/privacy.json"
+            }
+        ]
+    }
+}
