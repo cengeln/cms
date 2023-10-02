@@ -1,0 +1,24 @@
+{
+    "webview": {
+        "whitelisted_domains": [
+            "vodafone.de",
+            "",
+            "braintreegateway.com",
+            "amazon.com",
+            "www.amazon.com",
+            "pay.amazon.com",
+            "pay.amazon.de",
+            "amazon.de",
+            "www.amazon.de",
+            "adyen.com",
+            "www.adyen.com",
+            "sofort.com",
+            "klarna.com",
+            "paypal.com",
+            "*.vodafone.de",
+            "nebula-cdn.kampyle.com",
+            "www.sofort.com",
+            "vodafone.com"
+        ]
+    }
+}
