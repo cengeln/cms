@@ -8,7 +8,7 @@
                 "cms-id": "712",
                 "theme": "dark",
                 "display_name": "Dark Mode",
-                "resource": "https://www.vodafone.de/app/prod/icons_dark.json"
+                "resource": "https://github.com/cengeln/cms/blob/74807800fede5d46b5157b6c0d6590fd4aed6d71/icons_dark.json"
             },
             {
                 "timestamp": "20230213145521",
@@ -16,7 +16,7 @@
                 "cms-id": "710",
                 "theme": "light",
                 "display_name": "Light Mode",
-                "resource": "https://www.vodafone.de/app/prod/icons_light.json"
+                "resource": "https://github.com/cengeln/cms/blob/74807800fede5d46b5157b6c0d6590fd4aed6d71/icons_light.json"
             }
         ]
     }
