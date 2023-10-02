@@ -1,0 +1,23 @@
+{
+    "icons": {
+        "default_scheme": "light",
+        "theme_items": [
+            {
+                "timestamp": "20230213145521",
+                "cms-guid": "811BA12F4720475E9582EF26007C9C96",
+                "cms-id": "712",
+                "theme": "dark",
+                "display_name": "Dark Mode",
+                "resource": "https://www.vodafone.de/app/prod/icons_dark.json"
+            },
+            {
+                "timestamp": "20230213145521",
+                "cms-guid": "6A8D6C660F5843FC9AF7F49B5B60A888",
+                "cms-id": "710",
+                "theme": "light",
+                "display_name": "Light Mode",
+                "resource": "https://www.vodafone.de/app/prod/icons_light.json"
+            }
+        ]
+    }
+}
