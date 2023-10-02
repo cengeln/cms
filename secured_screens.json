@@ -1,0 +1,23 @@
+{
+    "secured_screens": {
+        "screens": [
+            "TopUp",
+            "SimEsimScreen",
+            "MyPlanUM",
+            "MyPlanKD",
+            "Login",
+            "Inbox",
+            "InboxDocuments",
+            "CreditTransferScreen",
+            "ChangingContactScreen",
+            "Balance",
+            "BillDunning",
+            "MyPlan",
+            "BillLanding",
+            "HomeScreen"
+        ],
+        "webviews": [
+            "*"
+        ]
+    }
+}
