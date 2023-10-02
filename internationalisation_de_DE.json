@@ -1,4 +1,5 @@
 {
+	"available_till": "Verfügbar bis",
 	"dashboard_tiles_small_tile_static_happy_image": "<a aria-label=\"Link https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/HappyBackground.png\" href=\"https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/HappyBackground.png\" rel=\"noopener noreferrer\" target=\"_blank\" title=\"https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/happybackground.png\">https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/HappyBackground.png</a>",
 	"DSL_DUN_OPEN_AMT": "offener Betrag&nbsp;",
 	"DSL_DUN_BLDAT": "Belegdatum",
@@ -80,7 +81,6 @@
 	"dashboard_sections_help_title": "Hilfe",
 	"dashboard_sections_help_pages_label": "Hilfe &amp; Suche",
 	"dashboard_sections_search_label": "Hilfe & Suche",
-	"dashboard_tiles_small_tile_static_happy_image": "possible invalid key",
 	"dashboard_sections_assistance_title": "Service",
 	"dashboard_sections_shop_finder_label": "Shopfinder",
 	"dashboard_tiles_small_tile_static_giga_kombi_text_2": "Kombinieren &amp; sparen",
