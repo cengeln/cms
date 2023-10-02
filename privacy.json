@@ -1,0 +1,70 @@
+{
+    "privacy": {
+        "data_privacy": {
+            "dataPrivacyUrl": "https://www.vodafone.de/unternehmen/soziale-verantwortung/datenschutz-mv-app.html"
+        },
+        "cookie_permissions": {
+            "consent_version": 4
+        },
+        "bew_permissions": {
+            "bewMappingVersions": [
+                {
+                    "version": 3,
+                    "serviceIds": [
+                        {
+                            "serviceId": "GEO",
+                            "shortDescription": "bew_permissions_geo_short_description",
+                            "longDescription": "bew_permissions_geo_long_description"
+                        },
+                        {
+                            "serviceId": "CDEV",
+                            "shortDescription": "bew_permissions_cdev_short_description",
+                            "longDescription": "bew_permissions_cdev_long_description"
+                        },
+                        {
+                            "serviceId": "GENE",
+                            "shortDescription": "ew_permissions_gene_short_description",
+                            "longDescription": "bew_permissions_gene_long_description"
+                        }
+                    ]
+                },
+                {
+                    "version": 4,
+                    "serviceIds": [
+                        {
+                            "serviceId": "GEO",
+                            "shortDescription": "bew_permissions_geo_short_description",
+                            "longDescription": "bew_permissions_geo_long_description"
+                        },
+                        {
+                            "serviceId": "CDEV",
+                            "shortDescription": "bew_permissions_cdev_short_description",
+                            "longDescription": "bew_permissions_cdev_long_description"
+                        },
+                        {
+                            "serviceId": "GENE",
+                            "shortDescription": "ew_permissions_gene_short_description",
+                            "longDescription": "bew_permissions_gene_long_description"
+                        }
+                    ]
+                }
+            ],
+            "bewMappingServices": [
+                {
+                    "permissionId": "PDX",
+                    "serviceId": "NONE",
+                    "bewVersion": 4,
+                    "shortDescription": "bew_permissions_pdx_short_description",
+                    "longDescription": "ew_permissions_pdx_long_description"
+                },
+                {
+                    "permissionId": "CCC",
+                    "serviceId": "XXX",
+                    "bewVersion": 5,
+                    "shortDescription": "short",
+                    "longDescription": "long"
+                }
+            ]
+        }
+    }
+}
