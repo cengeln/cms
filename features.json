@@ -7,7 +7,7 @@
                 "cms-id": "2405",
                 "feature_name": "cookies",
                 "id": "cookies",
-                "resource": "https://www.vodafone.de/app/prod/cookies.json"
+                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/cookies.json"
             },
             {
                 "timestamp": "20230920082804",
@@ -15,7 +15,7 @@
                 "cms-id": "1945",
                 "feature_name": "securedScreens",
                 "id": "securedScreens",
-                "resource": "https://www.vodafone.de/app/prod/secured_screens.json"
+                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/secured_screens.json"
             },
             {
                 "timestamp": "20230920082804",
@@ -23,7 +23,7 @@
                 "cms-id": "656",
                 "feature_name": "webview",
                 "id": "webview",
-                "resource": "https://www.vodafone.de/app/prod/webview.json"
+                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/webview.json"
             },
             {
                 "timestamp": "20230920082804",
@@ -31,7 +31,7 @@
                 "cms-id": "654",
                 "feature_name": "privacy",
                 "id": "privacy",
-                "resource": "https://www.vodafone.de/app/prod/privacy.json"
+                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/privacy.json"
             }
         ]
     }
