@@ -1,7 +1,8 @@
 {
+	"dashboard_upgrade_component_subtitle_topup": "Jetzt aber mal ganz schnell aufladen das Ding!",
 	"available_till": "Verfügbar bis",
 	"dashboard_tiles_small_tile_static_happy_image": "<a aria-label=\"Link https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/HappyBackground.png\" href=\"https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/HappyBackground.png\" rel=\"noopener noreferrer\" target=\"_blank\" title=\"https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/happybackground.png\">https://media.vodafone.de/www/images/app/oneplatform/icons/dashboard/images/HappyBackground.png</a>",
-	"DSL_DUN_OPEN_AMT": "offener Betrag&nbsp;",
+	"DSL_DUN_OPEN_AMT": "offener Betrag",
 	"DSL_DUN_BLDAT": "Belegdatum",
 	"DSL_DUN_BUDAT": "Buchungsdatum",
 	"DSL_DUN_FAEDN": "Fälligkeitsdatum",
