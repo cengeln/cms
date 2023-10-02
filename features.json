@@ -7,7 +7,7 @@
                 "cms-id": "2405",
                 "feature_name": "cookies",
                 "id": "cookies",
-                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/cookies.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/cookies.json"
             },
             {
                 "timestamp": "20230920082804",
@@ -15,7 +15,7 @@
                 "cms-id": "1945",
                 "feature_name": "securedScreens",
                 "id": "securedScreens",
-                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/secured_screens.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/secured_screens.json"
             },
             {
                 "timestamp": "20230920082804",
@@ -23,7 +23,7 @@
                 "cms-id": "656",
                 "feature_name": "webview",
                 "id": "webview",
-                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/webview.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/webview.json"
             },
             {
                 "timestamp": "20230920082804",
@@ -31,7 +31,7 @@
                 "cms-id": "654",
                 "feature_name": "privacy",
                 "id": "privacy",
-                "resource": "https://github.com/cengeln/cms/blob/14bede816975c81e420c8fc23f9548cba58839ec/privacy.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/privacy.json"
             }
         ]
     }
