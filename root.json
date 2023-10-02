@@ -6,42 +6,42 @@
                 "cms-guid": "09E001C6FCC049C598A5CEDBF6DF6CEC",
                 "cms-id": "2404",
                 "id": "external features",
-                "resource": "https://www.vodafone.de/app/prod/external_features.json"
+                "resource": "https://github.com/cengeln/cms/blob/3363dd6cebb224c3495054d456e9c8f280da7510/external_features.json"
             },
             {
                 "timestamp": "20230928151836",
                 "cms-guid": "F7760A21F65F46FCA255B17BFC8AEAD8",
                 "cms-id": "2403",
                 "id": "cookies",
-                "resource": "https://www.vodafone.de/app/prod/cookies.json"
+                "resource": "https://github.com/cengeln/cms/blob/3363dd6cebb224c3495054d456e9c8f280da7510/cookies.json"
             },
             {
                 "timestamp": "20230928151836",
                 "cms-guid": "DFB2339E1D1E494BA6B02E8F9D382D3C",
                 "cms-id": "714",
                 "id": "icons",
-                "resource": "https://www.vodafone.de/app/prod/icons.json"
+                "resource": "https://github.com/cengeln/cms/blob/3363dd6cebb224c3495054d456e9c8f280da7510/icons.json"
             },
             {
                 "timestamp": "20230928151836",
                 "cms-guid": "193596D459EE4E3E9E7B3215B8620D52",
                 "cms-id": "686",
                 "id": "features",
-                "resource": "https://www.vodafone.de/app/prod/features.json"
+                "resource": "https://github.com/cengeln/cms/blob/3363dd6cebb224c3495054d456e9c8f280da7510/features.json"
             },
             {
                 "timestamp": "20230928151836",
                 "cms-guid": "8C45B437E33A41AEAF38F59F12DCF02F",
                 "cms-id": "685",
                 "id": "deeplinks",
-                "resource": "https://www.vodafone.de/app/prod/deeplinks.json"
+                "resource": "https://github.com/cengeln/cms/blob/3363dd6cebb224c3495054d456e9c8f280da7510/deeplinks.json"
             },
             {
                 "timestamp": "20230928151836",
                 "cms-guid": "1B158AF0E9894188AEB6E6571CB81F5D",
                 "cms-id": "684",
                 "id": "internationalisation",
-                "resource": "https://www.vodafone.de/app/prod/internationalisation.json"
+                "resource": "https://github.com/cengeln/cms/blob/3363dd6cebb224c3495054d456e9c8f280da7510/internationalisation.json"
             }
         ]
     }
