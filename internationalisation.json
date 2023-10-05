@@ -69,7 +69,7 @@
                 "cms-id": "668",
                 "locale": "sq",
                 "id": "internationalisation_sq_SQ",
-                "display_name": "Shqiptare (SQ)",
+                "display_name": "Shqip (SQ)",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/10/23/13/albania-26905_1280.png",
                 "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_sq_SQ.json"
             },
