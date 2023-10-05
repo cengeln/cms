@@ -42,6 +42,13 @@
                 "cms-id": "684",
                 "id": "internationalisation",
                 "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation.json"
+            },
+            {
+                "timestamp": "20230928151836",
+                "cms-guid": "2E158AF0E9894188AEB6E6571CB81F44",
+                "cms-id": "688",
+                "id": "images",
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/images.json"
             }
         ]
     }
