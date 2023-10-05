@@ -22,6 +22,46 @@
                 "display_name": "English (GB)",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/10/16/14/union-jack-26119_960_720.png",
                 "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_en_GB.json"
+            },
+            {
+                "timestamp": "20230928151826",
+                "cms-guid": "C7B5A60B78C44C4786C6601461E1AB99",
+                "cms-id": "665",
+                "locale": "en",
+                "id": "internationalisation_es_ES",
+                "display_name": "Español (ES)",
+                "icon": "https://cdn.pixabay.com/photo/2012/04/16/12/06/flag-35697_1280.png",
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_es_ES.json"
+            },
+            {
+                "timestamp": "20230928151826",
+                "cms-guid": "5555A60B78C44C4786C6601461E1AB88",
+                "cms-id": "664",
+                "locale": "en",
+                "id": "internationalisation_fr_FR",
+                "display_name": "Français (FR)",
+                "icon": "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295_1280.png",
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_fr_FR.json"
+            },
+            {
+                "timestamp": "20230928151826",
+                "cms-guid": "EDB5A60B78C44C4786C6601461E1AB15",
+                "cms-id": "663",
+                "locale": "en",
+                "id": "internationalisation_it_IT",
+                "display_name": "Italiano (IT)",
+                "icon": "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_1280.png",
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_it_IT.json"
+            },
+            {
+                "timestamp": "20230928151826",
+                "cms-guid": "12B5A60B78C44C4786C6601461E1AB12",
+                "cms-id": "662",
+                "locale": "en",
+                "id": "internationalisation_ar_EG",
+                "display_name": "عربي (EG)",
+                "icon": "https://cdn.pixabay.com/photo/2013/07/13/14/15/egypt-162284_1280.png",
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_ar_EG.json"
             }
         ]
     }
