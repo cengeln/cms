@@ -5,8 +5,8 @@
             "cms-guid": "D0AB7B4ACFB04BBABF8BC5C9A2DBCD8C",
             "cms-id": "2378",
             "category": "not mandatory for each image to be filled, relevant for Pontis Offers",
-            "resource-id": "image_id_placeholder2",
-            "resource": "https://media.vodafone.de/www/images/app/mcc_0847_counterstrike/Detail_redplus-0-.png"
+            "resource-id": "dashboard_tiles_small_tile_static_happy_image",
+            "resource": "https://media.vodafone.de/www/images/app/oneplatform/images/happy/small-tile-bg.png"
         },
         {
             "timestamp": "20230830101325",
