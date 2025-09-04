@@ -1,0 +1,720 @@
+{
+  "screens": [
+    {
+      "screen_id": "SpeedTestFixed",
+      "screen_config": {
+        "external_browser": true
+      },
+      "deeplinks": [
+        "https://vodafone-internal.eu.go.link/speedtest/fixed",
+        "https://vodafone.eu.go.link/speedtest/fixed",
+        "https://www.vodafone.de/meinvodafone/app/speedtest/fixed"
+      ],
+      "remote_url": "https://speedtest.vodafone.de/?ref=meinvodafone"
+    },
+    {
+      "screen_id": "AppAppStore",
+      "remote_url": "https://itunes.apple.com/de/app/meinvodafone/id398195347?mt=8"
+    },
+    {
+      "screen_id": "AppGooglePlay",
+      "remote_url": "https://play.google.com/store/apps/details?id=com.appseleration.android.selfcare"
+    },
+    {
+      "screen_id": "CallyaFlexAppAndroid",
+      "remote_url": "market://details?id=de.vodafone.callyaflex"
+    },
+    {
+      "screen_id": "CallyaFlexAppIOS",
+      "remote_url": "https://itunes.apple.com/de/app/callya-flex/id1225229891?mt=8"
+    },
+    {
+      "screen_id": "IdentityLogin",
+      "is_secured": true
+    },
+    {
+      "screen_id": "LoginByEmailScreen",
+      "is_secured": true
+    },
+    {
+      "screen_id": "ForgotPassword",
+      "remote_url": "https://www.vodafone.de/meinvodafone/account/login/zugangsdaten_vergessen?forApp=true&c_id=app_cad_authentication_op",
+      "is_secured": false
+    },
+    {
+      "screen_id": "RegisterAccount",
+      "remote_url": "https://www.vodafone.de/hilfe/meinvodafone.html?forApp=true&c_id=app_cad_authentication_op&tab=meinvodafone-app",
+      "is_secured": false
+    },
+    {
+      "screen_id": "AddContract",
+      "remote_url": "https://www.vodafone.de/hilfe/meinvodafone.html?forApp=true&c_id=app_cad_authentication_op&tab=vertraege-hinzufuegen",
+      "is_secured": false
+    },
+    {
+      "screen_id": "LoginCaptcha",
+      "is_secured": true,
+      "screen_config": {
+        "captcha_resend_counter": 30
+      },
+      "flow_starting_screen": "IdentityLogin",
+      "service_dependencies": [
+        "mint.sessionStart",
+        "mint.sessionStartV60"
+      ]
+    },
+    {
+      "screen_id": "EmailOTPScreen",
+      "is_secured": true,
+      "screen_config": {
+        "otp_resend_counter_in_seconds": 30
+      }
+    },
+    {
+      "screen_id": "SmsOTPScreen",
+      "is_secured": true,
+      "screen_config": {
+        "otp_resend_counter_in_seconds": 30
+      }
+    },
+    {
+      "screen_id": "OnboardingDataPrivacy",
+      "is_secured": false
+    },
+    {
+      "screen_id": "HomeScreen",
+      "is_secured": true,
+      "placements": [
+        "vov",
+        "nudge"
+      ],
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/home",
+        "https://vodafone.eu.go.link/home",
+        "https://vodafone-internal.eu.go.link/home"
+      ]
+    },
+    {
+      "screen_id": "ContractReconfirmation",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertrag_bestaetigen/aktivierungscode?forApp=true&c_id=app_cad_authentication_op",
+      "is_secured": true
+    },
+    {
+      "screen_id": "GigaGuarantee",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/gigagarantie",
+        "https://www.vodafone.de/meinvodafone/app/gigaguarantee",
+        "https://vodafone.eu.go.link/gigaguarantee",
+        "https://vodafone-internal.eu.go.link/gigaguarantee"
+      ]
+    },
+    {
+      "screen_id": "Tobi",
+      "remote_url": "https://app.tobi.vodafone.de",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/tobi/tray",
+        "https://vodafone.eu.go.link/tobi/tray",
+        "https://vodafone-internal.eu.go.link/tobi/tray"
+      ]
+    },
+    {
+      "screen_id": "TobiChat",
+      "remote_url": "https://app.tobi.vodafone.de",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/tobi/chat",
+        "https://vodafone.eu.go.link/tobi/chat",
+        "https://vodafone-internal.eu.go.link/tobi/chat"
+      ]
+    },
+    {
+      "screen_id": "BillLanding",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/overview",
+        "https://www.vodafone.de/meinvodafone/app/overview",
+        "https://www.vodafone.de/meinvodafone/app/billOverview",
+        "https://www.vodafone.de/meinvodafone/app/bill/overview",
+        "https://vodafone.eu.go.link/bill/overview",
+        "https://vodafone-internal.eu.go.link/bill/overview"
+      ]
+    },
+    {
+      "screen_id": "BillingKD",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen/rechnungen?forApp=true&c_id=app_cad_rechnung_op&navi=hide",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/billKD",
+        "https://www.vodafone.de/meinvodafone/app/bill/overview/kd",
+        "https://vodafone.eu.go.link/bill/overview/kd",
+        "https://vodafone-internal.eu.go.link/bill/overview/kd"
+      ]
+    },
+    {
+      "screen_id": "TrayItemBillingCable",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen/rechnungen?forApp=true&c_id=app_cad_rechnung_op&navi=hide",
+      "is_secured": true
+    },
+    {
+      "screen_id": "BillingUM",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen/rechnungen?forApp=true&c_id=app_cad_rechnung&navi=hide",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/billUM",
+        "https://www.vodafone.de/meinvodafone/app/bill/overview/um",
+        "https://vodafone.eu.go.link/bill/overview/um",
+        "https://vodafone-internal.eu.go.link/bill/overview/um"
+      ]
+    },
+    {
+      "screen_id": "TrayItemBillingUnitymedia",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen/rechnungen?forApp=true&c_id=app_cad_rechnung&navi=hide",
+      "is_secured": true
+    },
+    {
+      "screen_id": "DeviceFinancingOverview",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/deviceFinancing",
+        "https://www.vodafone.de/meinvodafone/app/device_financing",
+        "https://vodafone.eu.go.link/device_financing",
+        "https://vodafone-internal.eu.go.link/device_financing"
+      ]
+    },
+    {
+      "screen_id": "DeviceFinancingEarlySettlement",
+      "remote_url": "https://www.vodafone.de/meinvodafone/account/payment/uebersicht?forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "BillDunning",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen/kontouebersicht?c_id=app_cad_dunning&forApp=true",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/overview/dunning"
+      ]
+    },
+    {
+      "screen_id": "OnlineBillActivation",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen/einstellungen?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "UnpaidBillReview",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ihre-rechnungen/kontouebersicht?c_id=app_cad_dunning_op&forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "BillHelp",
+      "remote_url": "https://www.vodafone.de/hilfe/alles-zur-rechnung.html?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "ContractProlongation",
+      "remote_url": "https://www.vodafone.de/shop/authentifizierung.html?btype=decide&c_id=app_myplanbutton_vvl_acca_vvl_mob&j_id=AppConPerA01V%7CNonNon000&b_id=1653&void=33333887&forApp=true",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/prolongation",
+        "https://vodafone.eu.go.link/prolongation",
+        "https://vodafone-internal.eu.go.link/prolongation"
+      ]
+    },
+    {
+      "screen_id": "ChangePlanChoosePlan",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/change_plan",
+        "https://vodafone.eu.go.link/change_plan",
+        "https://vodafone-internal.eu.go.link/change_plan"
+      ],
+      "flow_starting_screen": "ChangePlanChoosePlan",
+      "service_dependencies": [
+        "dxl.productOffering"
+      ]
+    },
+    {
+      "screen_id": "ChangePlanDetails",
+      "is_secured": false,
+      "flow_starting_screen": "ChangePlanChoosePlan",
+      "service_dependencies": [
+        "dxl.productOffering"
+      ]
+    },
+    {
+      "screen_id": "ChangePlanSummary",
+      "is_secured": false,
+      "flow_starting_screen": "ChangePlanChoosePlan",
+      "service_dependencies": [
+        "dxl.productOffering"
+      ]
+    },
+    {
+      "screen_id": "TopUp",
+      "remote_url": "https://www.vodafone.de/meinvodafone/account/payment?product=${amount}&hideheader=1&forApp=true&c_id=app_cad_topup_op",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/topup/direct",
+        "https://vodafone.eu.go.link/topup/direct",
+        "https://vodafone-internal.eu.go.link/topup/direct"
+      ]
+    },
+    {
+      "screen_id": "SelectTopUpMethod",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/TopUpMethodsScreen",
+        "https://www.vodafone.de/meinvodafone/app/topup/select_method",
+        "https://vodafone.eu.go.link/topup/select_method",
+        "https://vodafone-internal.eu.go.link/topup/select_method"
+      ]
+    },
+    {
+      "screen_id": "AutoTopupActivationGuides",
+      "remote_url": "https://www.vodafone.de/hilfe/prepaid/callya-aufladen.html#wie-lade-ich-meine-prepaid-karte-auf?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "AutoTopUpEdit",
+      "remote_url": "https://www.vodafone.de/meinvodafone/account/payment/uebersicht?product=1500&forApp=true&enableAutoTopup=true&c_id=app_mva_topup_auto_op",
+      "is_secured": true
+    },
+    {
+      "screen_id": "VoucherTopUp",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/topup/voucher",
+        "https://vodafone.eu.go.link/topup/voucher",
+        "https://vodafone-internal.eu.go.link/topup/voucher"
+      ]
+    },
+    {
+      "screen_id": "CreditTransferScreen",
+      "is_secured": true,
+      "screen_config": {
+        "defaultWheelValue": 10,
+        "topupSomeoneElseWheelValues": [
+          5,
+          10,
+          20
+        ]
+      },
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/transfer",
+        "https://www.vodafone.de/meinvodafone/app/topup/transfer_credit",
+        "https://vodafone.eu.go.link/topup/transfer_credit",
+        "https://vodafone-internal.eu.go.link/topup/transfer_credit"
+      ]
+    },
+    {
+      "screen_id": "MyPlan",
+      "is_secured": true,
+      "placements": [
+        "vvl"
+      ],
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/myplan",
+        "https://www.vodafone.de/meinvodafone/app/tariff",
+        "https://www.vodafone.de/meinvodafone/app/my_plan",
+        "https://vodafone.eu.go.link/my_plan",
+        "https://vodafone-internal.eu.go.link/my_plan"
+      ]
+    },
+    {
+      "screen_id": "SimNickNameEdit",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/karte/karte-umbenennen?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "AddOns",
+      "is_secured": false,
+      "flow_starting_screen": "AddOns",
+      "service_dependencies": [
+        "dxl.productOffering",
+        "dxl.activeProductsStatus"
+      ],
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/addons",
+        "https://vodafone.eu.go.link/addons",
+        "https://vodafone-internal.eu.go.link/addons"
+      ]
+    },
+    {
+      "screen_id": "AddOnsShopScreen",
+      "is_secured": false,
+      "flow_starting_screen": "AddOnsShopScreen",
+      "service_dependencies": [
+        "dxl.productOffering"
+      ],
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/addons/shop",
+        "https://vodafone.eu.go.link/addons/shop",
+        "https://vodafone-internal.eu.go.link/addons/shop"
+      ]
+    },
+    {
+      "screen_id": "AddOnsDetails",
+      "is_secured": false,
+      "flow_starting_screen": "AddOns",
+      "service_dependencies": [
+        "dxl.productOffering",
+        "dxl.activeProductsStatus"
+      ]
+    },
+    {
+      "screen_id": "Balance",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/balance",
+        "https://vodafone.eu.go.link/balance",
+        "https://vodafone-internal.eu.go.link/balance"
+      ]
+    },
+    {
+      "screen_id": "MyPlanCancellationPreRegistration",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/teilnehmer/mein-tarif?accordion=mein-tarif&c_id=app_contract_cancellation_op",
+      "is_secured": false
+    },
+    {
+      "screen_id": "OfferDetailsCancellationPolicyPDF",
+      "remote_url": "https://www.vodafone.de/media/downloads/pdf/504417_Widerruf.pdf?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "Settings",
+      "is_secured": false
+    },
+    {
+      "screen_id": "ChangePassword",
+      "is_secured": true,
+      "screen_config": {
+        "regex_password_field": "^(?=.*[a-zäöüß])(?=.*[A-ZÄÖÜ])(?=.*\\d)(?=.*[@$!%*#?&\"'()+,\\-.\\/:;=>[\\]^_{|}~])[a-zäöüßA-ZÄÖÜ\\d@$!%*#?&\"'()+,\\-.\\/:;=>[\\]^_{|}~]{8,64}$"
+      }
+    },
+    {
+      "screen_id": "AddressesOverview",
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/personal-data",
+        "https://www.vodafone.de/meinvodafone/app/contact-data"
+      ],
+      "is_secured": true
+    },
+    {
+      "screen_id": "ContactDataFixednet",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/quicklink/vertragsdaten-dsl?forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "AccountTrayItemPersonalDetailsFixednet",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/quicklink/vertragsdaten-dsl?forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "ContactDataCable",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=kontaktdaten&forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "AccountTrayItemPersonalDetailsCable",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=kontaktdaten&forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "ContactDataUnitymedia",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=kontaktdaten&forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "AccountTrayItemPersonalDetailsUnitymedia",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=kontaktdaten&forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "MessageCenterScreen",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/inbox",
+        "https://vodafone.eu.go.link/inbox",
+        "https://vodafone-internal.eu.go.link/inbox"
+      ]
+    },
+    {
+      "screen_id": "OrderStatus",
+      "is_secured": false
+    },
+    {
+      "screen_id": "MyPaymentMethodsFixednet",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=bankverbindung&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "AccountTrayItemMyPaymentMethodsFixednet",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=bankverbindung&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "MyPaymentMethodsCable",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=bankverbindung&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "AccountTrayItemMyPaymentMethodsCable",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=bankverbindung&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "MyPaymentMethodsUnitymedia",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=bankverbindung&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "AccountTrayItemMyPaymentMethodsUnitymedia",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/vertragsdaten?accordion=bankverbindung&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "BanAuthentication",
+      "remote_url": "https://vod.af/loginhilfe",
+      "is_secured": false
+    },
+    {
+      "screen_id": "CookiesAndTracking",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/cookies-and-tracking",
+        "https://www.vodafone.de/meinvodafone/app/permissions/cookies_and_tracking",
+        "https://vodafone.eu.go.link/permissions/cookies_and_tracking",
+        "https://vodafone-internal.eu.go.link/permissions/cookies_and_tracking"
+      ]
+    },
+    {
+      "screen_id": "AdvertisingAndDataEvaluation",
+      "is_secured": false
+    },
+    {
+      "screen_id": "ImprintDetailsScreen",
+      "remote_url": "https://www.vodafone.de/impressum.html?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "DataPrivacy",
+      "remote_url": "https://www.vodafone.de/unternehmen/soziale-verantwortung/datenschutz-mv-app.html?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "BEWOverlay",
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/bew_settings",
+        "https://www.vodafone.de/meinvodafone/app/bew"
+      ],
+      "is_secured": true
+    },
+    {
+      "screen_id": "SpeedCheckerScreen",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/speedtest",
+        "https://www.vodafone.de/meinvodafone/app/speedchecker",
+        "https://vodafone.eu.go.link/speedchecker",
+        "https://vodafone-internal.eu.go.link/speedchecker"
+      ]
+    },
+    {
+      "screen_id": "HappyScreen",
+      "is_secured": true,
+      "deeplinks": [
+        "https://app.preprod.happy.vodafone.de/dashboard",
+        "https://app.happy.vodafone.de/dashboard",
+        "https://www.vodafone.de/meinvodafone/app/happy",
+        "https://vodafone.eu.go.link/happy",
+        "https://vodafone-internal.eu.go.link/happy"
+      ]
+    },
+    {
+      "screen_id": "HappyWebView",
+      "remote_url": "https://app.preprod.happy.vodafone.de/dashboard?c_id=app_son_A01:cre_____app__happy",
+      "is_secured": false
+    },
+    {
+      "screen_id": "HappyTutorial",
+      "is_secured": false,
+      "screen_config": {
+        "tutorial_pages": [
+          {
+            "step_name": "firstHappyTutorialStep",
+            "order": 1,
+            "content_url": "https://media.vodafone.de/www/images/app/vodafone_happy/Happy_Tutorial_V2.jpg",
+            "title": "rewards_tutorial_page_1_title",
+            "text": "rewards_tutorial_page_1_text"
+          }
+        ]
+      }
+    },
+    {
+      "screen_id": "ShopFinder",
+      "is_secured": false
+    },
+    {
+      "screen_id": "Roaming",
+      "is_secured": false
+    },
+    {
+      "screen_id": "SimEsimScreen",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/esim",
+        "https://www.vodafone.de/meinvodafone/app/simmanagement",
+        "https://www.vodafone.de/meinvodafone/app/sim",
+        "https://vodafone.eu.go.link/sim",
+        "https://vodafone-internal.eu.go.link/sim"
+      ]
+    },
+    {
+      "screen_id": "SimSwap",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/neue-sim-karte-bestellen?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "ESimActivation",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/aktivierungs-confirmation-code?forApp=true",
+      "is_secured": true
+    },
+    {
+      "screen_id": "SimActivation",
+      "remote_url": "https://www.vodafone.de/SIM-Karte-aktivieren?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "SimSwapHelp",
+      "remote_url": "https://www.vodafone.de/hilfe/alles-zur-sim-und-esim.html?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "DeviceActivationHelp",
+      "remote_url": "https://www.vodafone.de/hilfe/alles-zur-esim.html?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "PinAndPuk",
+      "remote_url": "https://www.vodafone.de/hilfe/sicherheit/pin-und-puk.html?c_id=app_cad_tariff_op&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "OneNumberOrder",
+      "remote_url": "https://www.vodafone.de/privat/multisim/multisim.html?esim=1&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "SimCancel",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/ultracard-kundigen/review?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "OffersScreen",
+      "placements": [
+        "offers_primary",
+        "offers_secondary"
+      ],
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/offer",
+        "https://vodafone.eu.go.link/offer",
+        "https://vodafone-internal.eu.go.link/offer"
+      ]
+    },
+    {
+      "screen_id": "OfferDetails",
+      "is_secured": true,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/offer/details",
+        "https://vodafone.eu.go.link/offer/details",
+        "https://vodafone-internal.eu.go.link/offer/details"
+      ]
+    },
+    {
+      "screen_id": "MyPlanNumberBarring",
+      "remote_url": "https://www.vodafone.de/meinvodafone/services/teilnehmer/sim-karte-einstellungen?accordion=rufnummern-bereich&forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "3rdPartyBarring",
+      "remote_url": "https://www.vodafone.de/meinvoafone/Abosperre?forApp=true",
+      "is_secured": false
+    },
+    {
+      "screen_id": "NetAssistant",
+      "is_secured": false,
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/netassistant",
+        "https://vodafone.eu.go.link/netassistant",
+        "https://vodafone-internal.eu.go.link/netassistant"
+      ]
+    },
+    {
+      "screen_id": "NetInfo",
+      "is_secured": false
+    },
+    {
+      "screen_id": "NetFeedback",
+      "is_secured": false
+    },
+    {
+      "screen_id": "NetCoverage",
+      "is_secured": false
+    },
+    {
+      "screen_id": "AppFeedback",
+      "remote_url": "https://forum.vodafone.de/t5/Feedback/bd-p/9001",
+      "is_secured": false
+    },
+    {
+      "screen_id": "SnakeGame",
+      "remote_url": "https://games.vodafone-rcs.materna-ms.cloud/snake/?%20setLinkClick=true&c_id=app_dcc_9104_vov%20_other_snake_new_acca_cont&i_id=AppCo%20nPerA01V%7CNonNon000&b_id=1653&void%20=33333887&forApp=true",
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/snake",
+        "https://vodafone.eu.go.link/snake",
+        "https://vodafone-internal.eu.go.link/snake"
+      ],
+      "screen_config": {
+        "external_browser": true
+      }
+    },
+    {
+      "screen_id": "WhatsApp",
+      "remote_url": "https://wa.me/message/QI4HY7D6MX7VM1",
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/whatsapp",
+        "https://vodafone.eu.go.link/whatsapp",
+        "https://vodafone-internal.eu.go.link/whatsapp"
+      ],
+      "screen_config": {
+        "external_browser": true
+      }
+    },
+    {
+      "screen_id": "HappyGoRealLife2025",
+      "remote_url": "https://meineeinwilligung.vodafone.de/c/goreallive_mf?c_id=app_brc_A01%3Aolp____eng_hap_gewn_Happy",
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/happy_go_real_life_2025",
+        "https://vodafone.eu.go.link/happy_go_real_life_2025",
+        "https://vodafone-internal.eu.go.link/happy_go_real_life_2025"
+      ],
+      "screen_config": {
+        "external_browser": true
+      }
+    },
+    {
+      "screen_id": "TradeIn",
+      "remote_url": "https://trade-in.vodafone.com/de/?source=MVA",
+      "deeplinks": [
+        "https://www.vodafone.de/meinvodafone/app/trade_in",
+        "https://vodafone.eu.go.link/trade_in",
+        "https://vodafone-internal.eu.go.link/trade_in"
+      ],
+      "screen_config": {
+        "external_browser": true
+      }
+    }
+  ]
+}
