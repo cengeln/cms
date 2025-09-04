@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "consent_version_li": 12,
+    "consent_version_happy": 1,
+    "consent_version_bew": 3,
+    "identifiers": [
+      {
+        "screen_id": "CookiesAndTracking",
+        "screen_version": "12",
+        "page_id": "app_cookie_permission_12"
+      },
+      {
+        "screen_id": "https://www.vodafone.de/meinvodafone/services/permissions/cookiePermissions.html",
+        "screen_version": "8",
+        "page_id": "web_cookie_permission_8"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "bew_page_ids",
+        "resource": "https://www.vodafone.de/webapp/prod/bew.json",
+        "timestamp": "20250704143405"
+      }
+    ]
+  }
+}
