@@ -1,0 +1,118 @@
+{
+"services":
+    [
+        
+        
+        
+{
+            "service_id": "Mint.sessionStart",
+            "response_timeout": 10,
+            "caching_time": 0,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "Mint.sessionStartV60",
+            "response_timeout": 10,
+            "caching_time": 0,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "Mint.oidcToken",
+            "response_timeout": 10,
+            "caching_time": 0,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "DXL.billHistory",
+            
+            "caching_time": 900,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "DXL.productOffering",
+            "response_timeout": 60,
+            "caching_time": 1800,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "DXL.productOrder",
+            "response_timeout": 60,
+            "caching_time": 0,
+            "caching_clearing_triggers": [
+                
+                 
+"DXL.productOffering" ,
+"DXL.activeProductsStatus"           
+            ]
+        },
+{
+            "service_id": "DXL.activeProductsStatus",
+            "response_timeout": 60,
+            "caching_time": 1800,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "DXL.documents",
+            
+            "caching_time": 3600,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "DXL.queryProductRecommendation",
+            "response_timeout": 60,
+            "caching_time": 600,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "Nil.documents",
+            
+            "caching_time": 3600,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "Nil.documentDetails",
+            
+            "caching_time": 3600,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        },
+{
+            "service_id": "Vluxgate.hashing",
+            
+            "caching_time": 315360000,
+            "caching_clearing_triggers": [
+                
+                           
+            ]
+        }
+    ]
+}
