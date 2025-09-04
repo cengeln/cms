@@ -1,55 +1,109 @@
 {
-    "app_package": {
-        "items": [
-            {
-                "timestamp": "20230928151836",
-                "cms-guid": "09E001C6FCC049C598A5CEDBF6DF6CEC",
-                "cms-id": "2404",
-                "id": "external features",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/external_features.json"
-            },
-            {
-                "timestamp": "20230928151836",
-                "cms-guid": "F7760A21F65F46FCA255B17BFC8AEAD8",
-                "cms-id": "2403",
-                "id": "cookies",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/cookies.json"
-            },
-            {
-                "timestamp": "20230928151836",
-                "cms-guid": "DFB2339E1D1E494BA6B02E8F9D382D3C",
-                "cms-id": "714",
-                "id": "icons",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/icons.json"
-            },
-            {
-                "timestamp": "20230928151836",
-                "cms-guid": "193596D459EE4E3E9E7B3215B8620D52",
-                "cms-id": "686",
-                "id": "features",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/features.json"
-            },
-            {
-                "timestamp": "20230928151836",
-                "cms-guid": "8C45B437E33A41AEAF38F59F12DCF02F",
-                "cms-id": "685",
-                "id": "deeplinks",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/deeplinks.json"
-            },
-            {
-                "timestamp": "20230928151836",
-                "cms-guid": "1B158AF0E9894188AEB6E6571CB81F5D",
-                "cms-id": "684",
-                "id": "internationalisation",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation.json"
-            },
-            {
-                "timestamp": "20230928151836",
-                "cms-guid": "2E158AF0E9894188AEB6E6571CB81F44",
-                "cms-id": "688",
-                "id": "images",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/images.json"
-            }
-        ]
-    }
+   "cms_scheme_version": 1,
+   "maintenance": {
+      "enabled": false,
+      "title": {
+         "de": "Wir verbessern gerade die MeinVodafone-App für Dich",
+         "en": ""
+      },
+      "description": {
+         "de": "Du kannst hier bald wieder alle Funktionen nutzen.",
+         "en": ""
+      },
+      "close_button_label": {
+         "en": "",
+         "de": "Schließen"
+      },
+      "start": 20241029111500,
+      "end": 20251129200000,
+      "blocking": false
+   },
+   "app_update": {
+      "title": {
+         "de": "Deine MeinVodafone-App ist nicht mehr aktuell",
+         "en": ""
+      },
+      "description": {
+         "de": "Lad jetzt die neue Version herunter. Und nutz dann alle Funktionen.",
+         "en": ""
+      },
+      "close_button_label": {
+         "de": "Schließen",
+         "en": ""
+      },
+      "update_button_label": {
+         "de": "Jetzt Update herunterladen",
+         "en": ""
+      },
+      "min_supported_version": "15.4.1",
+      "recommended_version": "15.4.1"
+   },
+   "app_package": {
+      "items": [
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "B0245123481D47E1BB3DE5F9C1D8C4F0",
+            "cms-id": "7986",
+            "id": "internationalisation",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "06878B765E6449F6B2AD538A5AAFF066",
+            "cms-id": "7988",
+            "id": "icons",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/icons.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "3D500A5BA36144898DEC099E28C67ADC",
+            "cms-id": "7987",
+            "id": "images",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/images.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "C7FF2F6CD82E462C9E830D8D0597D205",
+            "cms-id": "41832",
+            "id": "services",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/services.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "94E7CD4EC59D4C858D0ECC27553A43C8",
+            "cms-id": "41833",
+            "id": "remote_applications",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/remote_applications.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "4EE163987F2B461592EF594BFF07E518",
+            "cms-id": "7983",
+            "id": "screens",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/screens.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "94AF3F7AA0D5487DAFF21D2731347574",
+            "cms-id": "7989",
+            "id": "placements",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/placements.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "6647C571F2FE4C7E8D5216050271CD24",
+            "cms-id": "32900",
+            "id": "permissions",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/permissions.json"
+         },
+         {
+            "timestamp": "20250904062755",
+            "cms-guid": "8D2A04DF17F5499BA6CF14A1140F56E8",
+            "cms-id": "32878",
+            "feature_name": "privacy",
+            "id": "privacy",
+            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/privacy.json"
+         }
+      ]
+   }
 }
