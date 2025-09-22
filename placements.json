@@ -1,323 +1,148 @@
 {
-  "placements": {
-
-            
-
-             
-
-
-    "vvl": {
-        
-         
-
-
-    "all": [
-        
-         
-"mbox_mva_vvl"
-        
-      
-    ]
-        
-      
-    } ,
-
-
-    "offers_secondary": {
-        
-         
-
-
-    "unitymedia": [
-        
-         
-"mbox_um_mva_offers_secondary_7" ,
-"mbox_um_mva_offers_secondary_6" ,
-"mbox_um_mva_offers_secondary_5" ,
-"mbox_um_mva_offers_secondary_4" ,
-"mbox_um_mva_offers_secondary_3" ,
-"mbox_um_mva_offers_secondary_2" ,
-"mbox_um_mva_offers_secondary_1"
-        
-      
-    ] ,
-
-
-    "cable": [
-        
-         
-"mbox_kd_mva_offers_secondary_7" ,
-"mbox_kd_mva_offers_secondary_6" ,
-"mbox_kd_mva_offers_secondary_5" ,
-"mbox_kd_mva_offers_secondary_4" ,
-"mbox_kd_mva_offers_secondary_3" ,
-"mbox_kd_mva_offers_secondary_2" ,
-"mbox_kd_mva_offers_secondary_1"
-        
-      
-    ] ,
-
-
-    "fixednet": [
-        
-         
-"mbox_fixednet_mva_offers_secondary_7" ,
-"mbox_fixednet_mva_offers_secondary_6" ,
-"mbox_fixednet_mva_offers_secondary_5" ,
-"mbox_fixednet_mva_offers_secondary_4" ,
-"mbox_fixednet_mva_offers_secondary_3" ,
-"mbox_fixednet_mva_offers_secondary_2" ,
-"mbox_fixednet_mva_offers_secondary_1"
-        
-      
-    ] ,
-
-
-    "mobile-prepaid": [
-        
-         
-"mbox_payg_mva_offers_secondary_7" ,
-"mbox_payg_mva_offers_secondary_6" ,
-"mbox_payg_mva_offers_secondary_5" ,
-"mbox_payg_mva_offers_secondary_4" ,
-"mbox_payg_mva_offers_secondary_3" ,
-"mbox_payg_mva_offers_secondary_2" ,
-"mbox_payg_mva_offers_secondary_1"
-        
-      
-    ] ,
-
-
-    "mobile-postpaid": [
-        
-         
-"mbox_paym_mva_offers_secondary_7" ,
-"mbox_paym_mva_offers_secondary_6" ,
-"mbox_paym_mva_offers_secondary_5" ,
-"mbox_paym_mva_offers_secondary_4" ,
-"mbox_paym_mva_offers_secondary_3" ,
-"mbox_paym_mva_offers_secondary_2" ,
-"mbox_paym_mva_offers_secondary_1"
-        
-      
-    ]
-        
-      
-    } ,
-
-
-    "offers_primary": {
-        
-         
-
-
-    "unitymedia": [
-        
-         
-"mbox_um_mva_offers_primary"
-        
-      
-    ] ,
-
-
-    "cable": [
-        
-         
-"mbox_kd_mva_offers_primary"
-        
-      
-    ] ,
-
-
-    "fixednet": [
-        
-         
-"mbox_fixednet_mva_offers_primary"
-        
-      
-    ] ,
-
-
-    "mobile-prepaid": [
-        
-         
-"mbox_payg_mva_offers_primary"
-        
-      
-    ] ,
-
-
-    "mobile-postpaid": [
-        
-         
-"mbox_paym_mva_offers_primary"
-        
-      
-    ]
-        
-      
-    } ,
-
-
-    "nudge": {
-        
-         
-
-
-    "all": [
-        
-         
-"mbox_mva_nudge_redeem_voucher" ,
-"mbox_mva_nudge"
-        
-      
-    ]
-        
-      
-    } ,
-
-
-    "vov": {
-        
-         
-
-
-    "unitymedia": [
-        
-         
-"mbox_um_mva_vov_7" ,
-"mbox_um_mva_vov_6" ,
-"mbox_um_mva_vov_5" ,
-"mbox_um_mva_vov_4" ,
-"mbox_um_mva_vov_3" ,
-"mbox_um_mva_vov_2" ,
-"mbox_um_mva_vov_1"
-        
-      
-    ] ,
-
-
-    "cable": [
-        
-         
-"mbox_kd_mva_vov_7" ,
-"mbox_kd_mva_vov_6" ,
-"mbox_kd_mva_vov_5" ,
-"mbox_kd_mva_vov_4" ,
-"mbox_kd_mva_vov_3" ,
-"mbox_kd_mva_vov_2" ,
-"mbox_kd_mva_vov_1"
-        
-      
-    ] ,
-
-
-    "fixednet": [
-        
-         
-"mbox_fixednet_mva_vov_7" ,
-"mbox_fixednet_mva_vov_6" ,
-"mbox_fixednet_mva_vov_5" ,
-"mbox_fixednet_mva_vov_4" ,
-"mbox_fixednet_mva_vov_3" ,
-"mbox_fixednet_mva_vov_2" ,
-"mbox_fixednet_mva_vov_1"
-        
-      
-    ] ,
-
-
-    "mobile-prepaid": [
-        
-         
-"mbox_payg_mva_vov_6" ,
-"mbox_payg_mva_vov_7" ,
-"mbox_payg_mva_vov_5" ,
-"mbox_payg_mva_vov_4" ,
-"mbox_payg_mva_vov_3" ,
-"mbox_payg_mva_vov_2" ,
-"mbox_payg_mva_vov_1"
-        
-      
-    ] ,
-
-
-    "mobile-postpaid": [
-        
-         
-"mbox_paym_mva_vov_7" ,
-"mbox_paym_mva_vov_6" ,
-"mbox_paym_mva_vov_5" ,
-"mbox_paym_mva_vov_4" ,
-"mbox_paym_mva_vov_3" ,
-"mbox_paym_mva_vov_2" ,
-"mbox_paym_mva_vov_1"
-        
-      
-    ]
-        
-      
-    } ,
-
-
-    "small_tiles": {
-        
-         
-
-
-    "unitymedia": [
-        
-         
-"mbox_um_mva_small_tile_1" ,
-"mbox_um_mva_small_tile_2"
-        
-      
-    ] ,
-
-
-    "cable": [
-        
-         
-"mbox_kd_mva_small_tile_1" ,
-"mbox_kd_mva_small_tile_2"
-        
-      
-    ] ,
-
-
-    "fixednet": [
-        
-         
-"mbox_fixednet_mva_small_tile_1" ,
-"mbox_fixednet_mva_small_tile_1"
-        
-      
-    ] ,
-
-
-    "mobile-prepaid": [
-        
-         
-"mbox_payg_mva_small_tile_1" ,
-"mbox_payg_mva_small_tile_2"
-        
-      
-    ] ,
-
-
-    "mobile-postpaid": [
-        
-         
-"mbox_paym_mva_small_tile_1" ,
-"mbox_paym_mva_small_tile_2"
-        
-      
-    ]
-        
-      
+    "placements": {
+        "vvl": {
+            "all": [
+                "mbox_mva_vvl"
+            ]
+        },
+        "offers_secondary": {
+            "unitymedia": [
+                "mbox_um_mva_offers_secondary_7",
+                "mbox_um_mva_offers_secondary_6",
+                "mbox_um_mva_offers_secondary_5",
+                "mbox_um_mva_offers_secondary_4",
+                "mbox_um_mva_offers_secondary_3",
+                "mbox_um_mva_offers_secondary_2",
+                "mbox_um_mva_offers_secondary_1"
+            ],
+            "cable": [
+                "mbox_kd_mva_offers_secondary_7",
+                "mbox_kd_mva_offers_secondary_6",
+                "mbox_kd_mva_offers_secondary_5",
+                "mbox_kd_mva_offers_secondary_4",
+                "mbox_kd_mva_offers_secondary_3",
+                "mbox_kd_mva_offers_secondary_2",
+                "mbox_kd_mva_offers_secondary_1"
+            ],
+            "fixednet": [
+                "mbox_fixednet_mva_offers_secondary_7",
+                "mbox_fixednet_mva_offers_secondary_6",
+                "mbox_fixednet_mva_offers_secondary_5",
+                "mbox_fixednet_mva_offers_secondary_4",
+                "mbox_fixednet_mva_offers_secondary_3",
+                "mbox_fixednet_mva_offers_secondary_2",
+                "mbox_fixednet_mva_offers_secondary_1"
+            ],
+            "mobile-prepaid": [
+                "mbox_payg_mva_offers_secondary_7",
+                "mbox_payg_mva_offers_secondary_6",
+                "mbox_payg_mva_offers_secondary_5",
+                "mbox_payg_mva_offers_secondary_4",
+                "mbox_payg_mva_offers_secondary_3",
+                "mbox_payg_mva_offers_secondary_2",
+                "mbox_payg_mva_offers_secondary_1"
+            ],
+            "mobile-postpaid": [
+                "mbox_paym_mva_offers_secondary_7",
+                "mbox_paym_mva_offers_secondary_6",
+                "mbox_paym_mva_offers_secondary_5",
+                "mbox_paym_mva_offers_secondary_4",
+                "mbox_paym_mva_offers_secondary_3",
+                "mbox_paym_mva_offers_secondary_2",
+                "mbox_paym_mva_offers_secondary_1"
+            ]
+        },
+        "offers_primary": {
+            "unitymedia": [
+                "mbox_um_mva_offers_primary"
+            ],
+            "cable": [
+                "mbox_kd_mva_offers_primary"
+            ],
+            "fixednet": [
+                "mbox_fixednet_mva_offers_primary"
+            ],
+            "mobile-prepaid": [
+                "mbox_payg_mva_offers_primary"
+            ],
+            "mobile-postpaid": [
+                "mbox_paym_mva_offers_primary"
+            ]
+        },
+        "nudge": {
+            "all": [
+                "mbox_mva_nudge_redeem_voucher",
+                "mbox_mva_nudge"
+            ]
+        },
+        "vov": {
+            "unitymedia": [
+                "mbox_um_mva_vov_7",
+                "mbox_um_mva_vov_6",
+                "mbox_um_mva_vov_5",
+                "mbox_um_mva_vov_4",
+                "mbox_um_mva_vov_3",
+                "mbox_um_mva_vov_2",
+                "mbox_um_mva_vov_1"
+            ],
+            "cable": [
+                "mbox_kd_mva_vov_7",
+                "mbox_kd_mva_vov_6",
+                "mbox_kd_mva_vov_5",
+                "mbox_kd_mva_vov_4",
+                "mbox_kd_mva_vov_3",
+                "mbox_kd_mva_vov_2",
+                "mbox_kd_mva_vov_1"
+            ],
+            "fixednet": [
+                "mbox_fixednet_mva_vov_7",
+                "mbox_fixednet_mva_vov_6",
+                "mbox_fixednet_mva_vov_5",
+                "mbox_fixednet_mva_vov_4",
+                "mbox_fixednet_mva_vov_3",
+                "mbox_fixednet_mva_vov_2",
+                "mbox_fixednet_mva_vov_1"
+            ],
+            "mobile-prepaid": [
+                "mbox_payg_mva_vov_6",
+                "mbox_payg_mva_vov_7",
+                "mbox_payg_mva_vov_5",
+                "mbox_payg_mva_vov_4",
+                "mbox_payg_mva_vov_3",
+                "mbox_payg_mva_vov_2",
+                "mbox_payg_mva_vov_1"
+            ],
+            "mobile-postpaid": [
+                "mbox_paym_mva_vov_7",
+                "mbox_paym_mva_vov_6",
+                "mbox_paym_mva_vov_5",
+                "mbox_paym_mva_vov_4",
+                "mbox_paym_mva_vov_3",
+                "mbox_paym_mva_vov_2",
+                "mbox_paym_mva_vov_1"
+            ]
+        },
+        "small_tiles": {
+            "unitymedia": [
+                "mbox_um_mva_small_tile_1",
+                "mbox_um_mva_small_tile_2"
+            ],
+            "cable": [
+                "mbox_kd_mva_small_tile_1",
+                "mbox_kd_mva_small_tile_2"
+            ],
+            "fixednet": [
+                "mbox_fixednet_mva_small_tile_1",
+                "mbox_fixednet_mva_small_tile_1"
+            ],
+            "mobile-prepaid": [
+                "mbox_payg_mva_small_tile_1",
+                "mbox_payg_mva_small_tile_2"
+            ],
+            "mobile-postpaid": [
+                "mbox_paym_mva_small_tile_1",
+                "mbox_paym_mva_small_tile_2"
+            ]
+        }
     }
-            
-
-  }
 }
-
