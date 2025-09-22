@@ -95,14 +95,6 @@
             "cms-id": "32900",
             "id": "permissions",
             "resource": "https://raw.githubusercontent.com/cengeln/cms/main/permissions.json"
-         },
-         {
-            "timestamp": "20250904062755",
-            "cms-guid": "8D2A04DF17F5499BA6CF14A1140F56E8",
-            "cms-id": "32878",
-            "feature_name": "privacy",
-            "id": "privacy",
-            "resource": "https://raw.githubusercontent.com/cengeln/cms/main/privacy.json"
          }
       ]
    }
