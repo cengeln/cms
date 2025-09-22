@@ -10,7 +10,7 @@
         "https://vodafone.eu.go.link/speedtest/fixed",
         "https://www.vodafone.de/meinvodafone/app/speedtest/fixed"
       ],
-      "remote_url": "https://speedtest.vodafone.de/?ref=meinvodafone"
+      "remote_url": "https://www.vodafone.de/meinvodafone/app/bill/overview"
     },
     {
       "screen_id": "AppAppStore",
