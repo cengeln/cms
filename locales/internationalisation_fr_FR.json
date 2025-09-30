@@ -1051,7 +1051,7 @@
   "device_financing_tile_selfpayer_overdue_text": "Malheureusement, nous n'avons reçu aucun paiement. Veuillez transférer le paiement en retard. Assurez-vous d'utiliser le numéro de référence spécifié.",
   "device_financing_tile_settled_text": "Tout va bien! Votre appareil est entièrement payé.",
   "device_financing_tile_update_bank_account_button_label": "Modifier le compte bancaire",
-  "device_financing_tile_update_bank_account_text": "Vérifiez vos coordonnées bancaires. Afin que nous puissions réserver à nouveau le montant de votre compte.",
+  "device_financing_tile_update_bank_account_text": "Vérifiez vos coordonnées bancaires.Afin que nous puissions réserver à nouveau le montant de votre compte.",
   "directMail": "E-mail personnel",
   "display_options_display_mode_section_description": "Ce mode utilise vos paramètres système.",
   "display_options_display_mode_section_title": "Mode d'affichage",
