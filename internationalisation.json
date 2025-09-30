@@ -9,7 +9,7 @@
                 "cms-id": "661",
                 "locale": "de",
                 "id": "internationalisation_de_DE",
-                "display_name": "Deutsch",
+                "display_name": "Deutsch (DE)",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png",
                 "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_de_DE.json"
             },
@@ -62,6 +62,16 @@
                 "display_name": "عربي (EG)",
                 "icon": "https://cdn.pixabay.com/photo/2013/07/13/14/15/egypt-162284_1280.png",
                 "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_ar_EG.json"
+            },
+            {
+                "timestamp": "20230928151826",
+                "cms-guid": "34B5A60B78C44C4786C6601461E1AB56",
+                "cms-id": "667",
+                "locale": "sq",
+                "id": "internationalisation_ro_RO",
+                "display_name": "Română (RO)",
+                "icon": "https://cdn.pixabay.com/photo/2012/04/11/17/04/romania-28958_640.png",
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_ro_RO.json"
             },
             {
                 "timestamp": "20230928151826",
