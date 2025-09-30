@@ -11,7 +11,7 @@
                 "id": "internationalisation_de_DE",
                 "display_name": "Deutsch",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_de_DE.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_de_DE.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -21,7 +21,7 @@
                 "id": "internationalisation_en_GB",
                 "display_name": "English (GB)",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/10/16/14/union-jack-26119_960_720.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_en_GB.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_en_GB.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -31,7 +31,7 @@
                 "id": "internationalisation_es_ES",
                 "display_name": "Español (ES)",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/16/12/06/flag-35697_1280.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_es_ES.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_es_ES.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -41,7 +41,7 @@
                 "id": "internationalisation_fr_FR",
                 "display_name": "Français (FR)",
                 "icon": "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295_1280.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_fr_FR.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_fr_FR.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -51,7 +51,7 @@
                 "id": "internationalisation_it_IT",
                 "display_name": "Italiano (IT)",
                 "icon": "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_1280.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_it_IT.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_it_IT.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -61,7 +61,7 @@
                 "id": "internationalisation_ar_EG",
                 "display_name": "عربي (EG)",
                 "icon": "https://cdn.pixabay.com/photo/2013/07/13/14/15/egypt-162284_1280.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_ar_EG.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_ar_EG.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -71,7 +71,7 @@
                 "id": "internationalisation_sq_SQ",
                 "display_name": "Shqip (SQ)",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/10/23/13/albania-26905_1280.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_sq_SQ.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_sq_SQ.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -81,7 +81,7 @@
                 "id": "internationalisation_tr_TR",
                 "display_name": "Türkçe (TR)",
                 "icon": "https://cdn.pixabay.com/photo/2012/04/10/23/02/turkey-26820_1280.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_tr_TR.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_tr_TR.json"
             },
             {
                 "timestamp": "20230928151826",
@@ -91,7 +91,7 @@
                 "id": "internationalisation_zh_CN",
                 "display_name": "中国人 (CN)",
                 "icon": "https://cdn.pixabay.com/photo/2017/05/12/09/07/china-2306580_1280.png",
-                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/internationalisation_zh_CN.json"
+                "resource": "https://raw.githubusercontent.com/cengeln/cms/main/locales/internationalisation_zh_CN.json"
             }
         ]
     }

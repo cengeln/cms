@@ -1,0 +1,8 @@
+{
+    "i18n-ally.keystyle": "flat",
+    "i18n-ally.localesPaths": "locales",
+    "i18n-ally.pathMatcher": "internationalisation_{locale}.{ext}",
+    "i18n-ally.sourceLanguage": "de",
+    
+}
+    
