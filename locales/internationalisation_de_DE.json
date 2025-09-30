@@ -1049,7 +1049,7 @@
   "device_financing_tile_selfpayer_overdue_text": "Leider haben wir keine Zahlung bekommen. Bitte überweise die überfällige Zahlung. Verwende unbedingt die angegebene Referenznummer.",
   "device_financing_tile_settled_text": "Alles okay! Dein Gerät ist vollständig bezahlt.",
   "device_financing_tile_update_bank_account_button_label": "Bankkonto ändern",
-  "device_financing_tile_update_bank_account_text": "Prüf Deine Bankverbindung. Damit wir den Betrag wieder von Deinem Konto abbuchen können.",
+  "device_financing_tile_update_bank_account_text": "Prüf Deine Bankverbindung.Damit wir den Betrag wieder von Deinem Konto abbuchen können.",
   "directMail": "Persönliche Mail",
   "display_options_display_mode_section_description": "Dieser Modus nutzt Deine System-Einstellungen.",
   "display_options_display_mode_section_title": "Anzeige-Modus",
