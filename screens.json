@@ -1,6 +1,11 @@
 {
   "screens": [
     {
+      "screen_id": "EmailValidation",
+      "remote_url": "https://www.vodafone.de/meinvodafone/account/login/email_bestaetigen/?forapp=true&c_id=app_son_A01:_____app__emailvalidation",
+      "is_secured": false
+    },
+    {
       "screen_id": "SpeedTestFixed",
       "screen_config": {
         "external_browser": true
@@ -10,7 +15,7 @@
         "https://vodafone.eu.go.link/speedtest/fixed",
         "https://www.vodafone.de/meinvodafone/app/speedtest/fixed"
       ],
-      "remote_url": "https://www.vodafone.de/meinvodafone/app/bill/overview"
+      "remote_url": "https://speedtest.vodafone.de/?ref=meinvodafone"
     },
     {
       "screen_id": "AppAppStore",
@@ -85,6 +90,7 @@
       "screen_id": "HomeScreen",
       "is_secured": true,
       "placements": [
+        "small_tiles",
         "vov",
         "nudge"
       ],
@@ -185,7 +191,7 @@
     },
     {
       "screen_id": "DeviceFinancingEarlySettlement",
-      "remote_url": "https://www.vodafone.de/meinvodafone/account/payment/uebersicht?forApp=true",
+      "remote_url": "https://www.vodafone.de/hilfe/geraet-in-raten-zahlen.html?forApp=true",
       "is_secured": true
     },
     {
@@ -293,12 +299,18 @@
       "screen_id": "CreditTransferScreen",
       "is_secured": true,
       "screen_config": {
-        "defaultWheelValue": 10,
+        "defaultWheelValue": 5,
         "topupSomeoneElseWheelValues": [
           5,
           10,
           20
-        ]
+        ],
+        "topupSomeoneElseAmountPickerValues": [
+          5,
+          10,
+          20
+        ],
+        "defaultAmountPickerValue": 10
       },
       "deeplinks": [
         "https://www.vodafone.de/meinvodafone/app/transfer",
@@ -407,7 +419,7 @@
     },
     {
       "screen_id": "AccountTrayItemPersonalDetailsFixednet",
-      "remote_url": "https://www.vodafone.de/meinvodafone/services/quicklink/vertragsdaten-dsl?forApp=true",
+      "remote_url": "https://www.vodafone.de/meinvodafone/app/happy",
       "is_secured": true
     },
     {
@@ -533,7 +545,7 @@
     },
     {
       "screen_id": "HappyWebView",
-      "remote_url": "https://app.preprod.happy.vodafone.de/dashboard?c_id=app_son_A01:cre_____app__happy",
+      "remote_url": "https://app.happy.vodafone.de/dashboard?c_id=app_son_A01:cre_____app__happy",
       "is_secured": false
     },
     {
