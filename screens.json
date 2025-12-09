@@ -536,7 +536,7 @@
       "screen_id": "HappyScreen",
       "is_secured": true,
       "deeplinks": [
-        "https://www.vodafone.de/meinvodafone/services/quicklink/vertragsdaten-dsl?forApp=true",
+        "https://www.vodafone.de/meinvodafone/services/quicklink/vertragsdaten-dsl",
         "https://app.preprod.happy.vodafone.de/dashboard",
         "https://app.happy.vodafone.de/dashboard",
         "https://www.vodafone.de/meinvodafone/app/happy",
